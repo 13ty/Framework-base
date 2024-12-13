@@ -1,0 +1,82 @@
+ai-app-idea-generator/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   ├── manifest.json
+│   └── robots.txt
+├── src/
+│   ├── components/
+│   │   ├── Layout/
+│   │   │   ├── TopBar.tsx
+│   │   │   ├── SidePanel.tsx
+│   │   │   └── MainLayout.tsx
+│   │   ├── Input/
+│   │   │   ├── IdeaInput.tsx
+│   │   │   └── PromptCustomization.tsx
+│   │   ├── Response/
+│   │   │   ├── ResponseSegment.tsx
+│   │   │   ├── SegmentList.tsx
+│   │   │   └── SegmentDetails.tsx
+│   │   ├── Plan/
+│   │   │   ├── PlanPanel.tsx
+│   │   │   ├── PlanItem.tsx
+│   │   │   └── PlanExport.tsx
+│   │   └── Settings/
+│   │       ├── ModelSettings.tsx
+│   │       ├── PromptSettings.tsx
+│   │       └── ThemeSettings.tsx
+│   ├── services/
+│   │   ├── api/
+│   │   │   ├── modelApi.ts
+│   │   │   └── types.ts
+│   │   ├── llm/
+│   │   │   ├── ModelService.ts
+│   │   │   ├── PromptService.ts
+│   │   │   └── ResponseParser.ts
+│   │   └── storage/
+│   │       ├── LocalStorage.ts
+│   │       └── SessionStorage.ts
+│   ├── hooks/
+│   │   ├── useModel.ts
+│   │   ├── usePrompts.ts
+│   │   └── useTheme.ts
+│   ├── context/
+│   │   ├── ModelContext.tsx
+│   │   └── ThemeContext.tsx
+│   ├── types/
+│   │   ├── model.ts
+│   │   ├── prompt.ts
+│   │   ├── response.ts
+│   │   └── theme.ts
+│   ├── utils/
+│   │   ├── formatters.ts
+│   │   ├── validators.ts
+│   │   └── constants.ts
+│   ├── themes/
+│   │   ├── light.ts
+│   │   ├── dark.ts
+│   │   └── themeUtils.ts
+│   ├── styles/
+│   │   ├── global.css
+│   │   └── animations.css
+│   ├── config/
+│   │   ├── defaultPrompts.ts
+│   │   └── appConfig.ts
+│   ├── App.tsx
+│   ├── index.tsx
+│   └── react-app-env.d.ts
+├── config/
+│   └── paths.js
+├── scripts/
+│   ├── build.js
+│   └── start.js
+└── configuration files
+    ├── package.json
+    ├── tsconfig.json
+    ├── .env
+    ├── .env.development
+    ├── .env.production
+    ├── .eslintrc.json
+    ├── .prettierrc
+    ├── .gitignore
+    └── README.md
